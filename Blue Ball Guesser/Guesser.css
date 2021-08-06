@@ -1,0 +1,69 @@
+body {
+	background-color: #232323;
+	margin: 0;
+	font-family: Montserrat;
+}
+
+p{
+    color: white;
+}
+
+button{
+    color: black;
+    margin: 0.5%;
+    width: 3.5%;
+    padding: 8px;
+    padding-bottom: 1.8%;
+	border-radius: 50%;
+	transition: background 1s;
+	-webkit-transition: background 1s;
+	-moz-transition: background 1s;
+}
+
+#colorDisplay {
+	font-size: 200%;
+}
+
+h1,#instructions {
+	text-align: center;
+	line-height: 1.1;
+	padding: 20px 0;
+	font-weight: normal;
+	color: white;
+	background: steelblue;
+	margin: 0;
+	text-transform: uppercase;
+}
+  
+.slider {
+    -webkit-appearance: none;
+    width: 95%;
+    height: 5px;
+    margin-left: 40px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+  
+.slider:hover {
+    opacity: 1;
+}
+  
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #04AA6D;
+    cursor: pointer;
+}
+  
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #04AA6D;
+    cursor: pointer;
+}
